@@ -171,6 +171,7 @@ body {
 {
 	height:auto;
 	width:auto;
+	min-width: 70%;
 	z-index:16;
 	position:relative;
 	margin:0em 2ex 0ex 0ex;
