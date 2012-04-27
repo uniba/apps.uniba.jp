@@ -1,0 +1,786 @@
+.pageBannerAboveBackground
+{
+	color: #cccccc;
+	background-color:#efefef;
+	position:absolute;
+	height:8ex;
+	width:80%;
+	left:10%;
+	top:0px;
+	border:0px none;
+	margin:0px;
+	padding:0px;
+	clear:none;
+	float:none;
+	font-style:normal;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	z-index:6;
+	background-image:url(../Images/Aluminium.png);
+	background-position:center center;
+	background-attachment:fixed;
+}
+
+.pageBanner 
+{
+	z-index:4;
+	overflow:hidden;
+	top:8ex;
+	width:80%;
+	height:16ex;
+	position:absolute;
+	color: #FFFFFF;
+	text-align:center;
+	vertical-align: middle;
+	font-style: normal;
+	line-height:normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	white-space: nowrap;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	clear: none;
+	float: none;
+	left:10%;
+}
+
+.topBannerLine
+{
+	height:1.5ex;
+	width:80%;
+	position:absolute;
+	top:9.5ex;
+	left:10%;
+	background-attachment:scroll;
+	background-image:url(../Images/Aluminium.png);
+	background-position:center center;
+	z-index:9;
+	overflow:hidden;
+}
+
+.bottomBannerLine
+{
+	height:1.5ex;
+	width:80%;
+	position:absolute;
+	top:21ex;
+	left:10%;
+	background-attachment:scroll;
+	background-image:url(../Images/Aluminium.png);
+	background-position:center center;
+	z-index:8;
+	overflow:hidden;
+}
+
+
+.pageBannerText 
+{
+	font-size: 3.3em;
+	font-weight:900;
+}
+
+.pageBannerTextBox
+{
+	top:12.6ex;
+	position:absolute;
+	width:80%;
+	left:10%;
+	height:auto;
+	z-index:5;
+	text-align:center;
+	color: #FFFFFF;
+	letter-spacing: normal;
+	word-spacing: normal;
+	margin: 0px;
+	padding:0ex 0ex.2ex 0ex;
+	clear: none;
+	float: none;
+	vertical-align: middle;
+	text-shadow: 3px 3px 15px #1b1b1b;
+	overflow:hidden;
+}
+
+body {
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	font-size:11pt;
+	font-style:normal;
+	line-height:normal;
+	font-weight:normal;
+	font-variant:normal;
+	text-transform:none;
+	color: #333333;
+	letter-spacing:normal;
+	word-spacing:normal;
+	
+	border:0px none;
+	background-image:url(../Images/teru76801.jpg);
+	background-attachment:fixed;
+	background-position:center bottom;
+	font-family: "Myriad Pro", "Arial" ,"Verdana", "Hiragino Maru Gothic Pro W4",sans-serif;
+}
+
+.pageContentStandard 
+{
+	background-color:transparent;
+	position:fixed;
+	height:100%;
+	width:80%;
+	left:10%;
+	z-index:2;
+	line-height:normal;
+	border:none;
+	font-size:1em;
+	background-attachment: scroll;
+	background-image:url(../Images/Transparent-Image-Page.png);
+	background-repeat:repeat;
+	background-position:left top;
+}
+
+.pageContentShadow {
+	position:fixed;
+	height:100%;
+	width:86%;
+	left:7%;
+	z-index:1;
+	margin: 0px;
+	padding: 0px;
+	line-height:normal;
+	border: none;
+	top:0%;
+	font-size: 1em;
+}
+
+.baseNavigationBox
+{
+	top:2.6ex;
+	left:12%;
+	width:auto;
+	height:auto;
+	position:absolute;
+	background-color:transparent;
+	z-index:16;
+}
+
+.baseNavigationButton
+{
+	height:auto;
+	width:auto;
+	z-index:16;
+	position:relative;
+	margin:0em 2ex 0ex 0ex;
+	padding:0.2ex 0.5ex 0ex 0.5ex;
+	font-weight: 500;
+	color: #FFFFFF;
+	border: 1px solid #9098C6;
+	background-image:url(../Images/Plastic.Blue.png);
+	background-attachment:scroll;
+	background-position:center center;
+	background-repeat: repeat-x;
+	clear:right;
+	float:left;
+	font-size:2.5ex;
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	display:block;
+	overflow:visible;
+}
+
+.baseNavigationButton:visited
+{
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+a.baseNavigationButton:hover
+{
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	border-style:solid;
+	border-color:#666666;
+	border-width:1px;
+}
+
+body div.box
+{
+	font-size:11pt;
+	margin:.2ex 0ex 0ex -.8ex;
+	padding:0ex;
+	font-family: "Myriad Pro", "Arial", "Verdana", "Hiragino Maru Gothic Pro W4",sans-serif;
+}
+
+div.box
+{
+	position:absolute;
+	background-color:transparent;
+	visibility:hidden;
+	height:auto;
+	display:block;
+	width:auto;
+	min-width:27ex;
+	overflow:visible;
+	z-index:25;
+	background-image:url(../Images/Transparent-Image-White.png);
+	background-attachment:scroll;
+	background-position:center center;
+	background-repeat:repeat;
+	border-width:1px;  
+	border-style:solid;
+	border-color:transparent;
+}
+
+div.box:hover
+{
+	visibility:visible;
+	border-width:1px;  
+	border-style:solid;
+	border-color:#666666;
+	
+}
+
+a.menuItem, a.menuItem:link, a.menuItem:visited 
+{
+	padding:.5ex 0ex .5ex 2ex;
+	margin:0ex;
+	display:block;
+	width:25ex; 
+	position:relative;
+	height:auto;
+	background-color:transparent;
+	color:#333;
+	text-decoration:none;
+	font-weight:500;
+	border-width:1px;  
+	border-style:solid none solid none;
+	border-color:transparent;
+}
+
+a.menuItem:hover
+{
+	background-image:url(../Images/Transparent-Image-Blue.png);
+	background-position:center center;
+	background-attachment:scroll;
+	color:white;
+	background-repeat:repeat;
+	border-width:1px;  
+	border-style:solid none solid none;
+	border-color:#666666;
+}
+
+div.baseNavigationButton:hover div.box
+{
+	visibility:visible;
+}
+
+a.baseNavigationButton:hover a
+{
+	visibility:visible
+}
+
+div.box:hover a
+{
+	visibility:visible;
+} 
+
+a.baseNavigationButton:active
+{
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	background-image:url(../Images/Daimond.White.png);
+	border-color:#333333;
+	color:#333333;
+}
+
+.secondaryNavigationBar
+{
+	left:12%;
+	width:auto;
+	height:auto;
+	top:26.5ex;
+	z-index:13;
+	color:#ffffff;
+	position:absolute;
+	margin: 0ex 0ex 0ex 0ex;
+	padding: 0ex 0ex 0ex 0ex;
+	overflow:visible;
+	font-weight:500;
+	text-align:left;
+	border-width:1px;  
+	border-style:none solid none none;
+	border-color:#666666;
+}
+
+a.baseSecondaryNavigationElement
+{
+	width:auto;
+	position:relative;
+	clear:right;
+	float:left;
+	font-size:2ex;
+	padding:.3ex 1ex .1ex 1ex;
+	background-image:url(../Images/Plastic.Dark.png);
+	background-attachment:scroll;
+	background-repeat:repeat-x;
+	background-position:center center;
+	border-width:1px;  
+	border-style:solid none solid solid;
+	border-color:#666666;
+	color:#ffffff;
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+}
+
+a.baseSecondaryNavigationElement:visited
+{
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+a.baseSecondaryNavigationElement:hover
+{
+	background-image:url(../Images/Daimond.White.png);
+	background-attachment:scroll;
+	background-repeat:repeat-x;
+	background-position:center center;
+	color:#333333;
+	font-weight:500;
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+}
+
+
+a.baseSecondaryNavigationElement:active
+{
+	background-image:url(../Images/Plastic.Blue.png);
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none;
+	color:#ffffff;
+}
+
+h1 {
+	font-size: 1.4em;
+	font-style: normal;
+	line-height:normal;
+	font-weight: 900;
+	font-variant: normal;
+	text-transform: none;
+	color: #4D64CE;
+	left:10%;
+	width:80%;
+	z-index:12;
+}
+
+
+
+h2 {
+	font-size: 1.3em;
+	font-style: normal;
+	line-height:normal;
+	font-weight: 700;
+	font-variant: normal;
+	text-transform: none;
+	color: #4D64CE;
+	left:10%;
+	width:80%;
+	z-index:12;
+}
+
+
+h3 {
+	font-size: 1.4em;
+	font-style: normal;
+	line-height:normal;
+	font-weight: 500;
+	font-variant: normal;
+	text-transform: none;
+	color: #4D64CE;
+	left:10%;
+	width:80%;
+	z-index:12;
+}
+
+p{
+	font-size:1.1em;
+	color:#333333;
+	word-spacing:normal;
+	
+	font-weight: 500;
+	margin:0ex 1ex 0ex 0ex;
+	background-color:transparent;
+}
+
+.normalPageContent {
+	color:#333333;
+	top:30ex;
+	left:13%;
+	width:70%;
+	height:auto;
+	letter-spacing:normal;
+	text-align:left;
+	vertical-align:top;
+	word-spacing:normal;
+	
+	z-index:12;
+	position:absolute;
+	padding:1em;
+	background-color:transparent;
+}
+
+
+.imageBoxRightAligned 
+{
+	color: #333333;
+	float: right;
+	height:auto;
+	width:auto;
+	margin: .3em;
+	padding: 1.5em;
+	background-attachment: scroll;
+	background-image:url(../Images/Transparent-Image.png);
+	background-repeat: repeat;
+	background-position:left top;
+	clear: right;
+	overflow:visible;
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent;
+}
+
+.imageBoxRightAligned:hover
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:#666666;
+}
+
+img.standardImage4by3 
+{
+	clear:none;
+	float:none;
+	border:none;
+	overflow:visible;
+	position:relative;
+	height:16em;
+	width:20em;
+	border:solid;
+	border-width:.5ex;
+	border-color:transparent;
+	z-index:15;
+}
+  
+img.standardImage4by3:hover 
+{
+	border:solid;
+	border-width:.5ex;
+	border-color:#4D64CE;
+}
+
+ 
+.standardImage16by9 
+{
+	clear:none;
+	float:none;
+	position:relative;
+	height:10em;
+	width:20em;
+	border:none;
+	border-width:5px;
+	border-color:#4D64CE;
+}
+
+.standardImage16by9:hover 
+{
+	border:solid;
+	border-width:5px;
+	border-color:#4D64CE;
+}
+
+.standardImageBoxContents 
+{
+	color: #333333;
+	background-color: #DCDCDC;
+	float: right;
+	clear:right;
+	height:auto;
+	width:auto;
+	margin: 2em;
+	z-index:14;
+}
+.imageBoxText4by3 {
+	font-size: .9em;
+	font-style: normal;
+	line-height:normal;
+	font-weight: 600;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	letter-spacing: normal;
+	text-align:left;
+	vertical-align: bottom;
+	word-spacing: normal;
+	
+	height:auto;
+	width:20em;
+	margin: 0;
+}
+
+.imageBoxText16by9 {
+	font-size: .9em;
+	font-style: normal;
+	line-height:normal;
+	font-weight: 600;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	letter-spacing: normal;
+	text-align:left;
+	vertical-align: bottom;
+	word-spacing: normal;
+	
+	height:auto;
+	width:32em;
+	margin: 0;
+}
+
+.quoteBox 
+{
+	color: #333333;
+	float: right;
+	height:auto;
+	width:auto;
+	margin: .5ex;
+	padding: 3.1ex;
+	background-attachment: scroll;
+	background-image:url(../Images/Transparent-Image.png);
+	background-repeat: repeat;
+	background-position:left top;
+	clear: right;
+	overflow:visible;
+	position:relative;
+	width:20em;
+	border-width:1px;
+	border-style:solid;
+	border-color:transparent;
+}
+
+.quoteBox:hover
+{
+	border-width:1px;
+	border-style:solid;
+	border-color:#666666;
+}
+
+.quoteBoxText
+{
+	font-size: 1.4em;
+	font-style: normal;
+	line-height:normal;
+	font-weight: 500;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+	letter-spacing: normal;
+	vertical-align: middle;
+	word-spacing: normal;
+	font-style:italic;
+}
+
+.copyrightBox
+{
+	font-size: .7em;
+	font-weight: 900;
+	height:auto;
+	width:100%;
+	text-align:center;
+	color: #3875D7;
+	margin: 3em .0.2em .5em;
+	padding: 3em 0.8em .5em;
+	font-style:normal;
+	line-height:normal;
+	font-variant:normal;
+	letter-spacing: normal;
+	word-spacing: normal;
+	white-space: normal;
+	text-decoration:none;
+}
+
+
+a.homeLogo
+{
+	height:auto;
+	width:auto;
+	right:12%;
+	top:1.3ex;
+	z-index:15;
+	position:absolute;
+	border: 1px solid #000000;
+	margin: 0em 0em 0em 0em;
+	padding:.2ex 1ex;
+	color:white;
+	display:block;
+	overflow:hidden;
+	text-align:center;
+	text-decoration:none;
+	background-attachment: scroll;
+	background-image:url(../Images/Transparent-Image-Black.png);
+	background-repeat:repeat;
+	background-position:left top;
+}
+
+a.homeLogo:hover
+{
+	background-image:url(../Images/Transparent-Image-Glay.png);
+
+}
+
+a.homeLogo:active
+{
+	background-color:transparent;
+	background-image:none;
+	color:black;
+}
+
+
+span.homeLogoTextLarge
+{
+	font-size:2.7ex;
+	font-weight:700;
+	display:block;
+}
+
+span.homeLogoTextSmall
+{
+	font-size:1ex;
+	text-align:center;
+	font-weight:500;
+	position:relative;
+	padding:0ex 0ex .5ex 0ex; 
+	display:block;
+}
+
+
+
+div.pageJump
+{
+	height:auto;
+	width:10%;
+	z-index:18;
+	top:10%;
+	right:2%;
+	position:fixed;
+	text-align:center;
+	word-spacing:normal;
+	
+	margin:0;
+	display:block;
+	padding:20% 3%;
+	vertical-align:middle;
+}
+
+.pageJump:hover
+{
+
+}
+
+/*li.p-li1:hover > ul*/
+div.pageJump:hover a
+{
+	visibility:visible;
+}
+
+a.currentPageJumpElement
+{
+	text-decoration:none;
+	color:white;
+	width:auto;
+	font-weight:600;
+	background-image:url(../Images/Daimond.Blue.png);
+	border:1px solid #666666;
+	padding:.3ex .2ex .3ex .2ex;
+	display:block;
+	margin:1ex;
+	text-align:center;
+	visibility:hidden;
+}
+
+a.currentPageJumpElement:hover
+{
+	text-decoration:none;
+	color:#333333;
+	font-weight:600;
+	background-image:url(../Images/Daimond.White.png);
+	border:1px solid #666666;
+
+}
+
+a.currentPageJumpElement:active
+{
+	background-image:url(../Images/Plastic.Red.png);
+}
+
+a.nextPageJumpElement
+{
+	text-decoration:none;
+	color:#333333;
+	font-weight:400;
+	background-image:url(../Images/Daimond.White.png);
+	background-attachment:scroll;
+	background-repeat:repeat-x;
+	background-position:center center;
+	border:1px solid #666666;
+	padding:.3ex .2ex .3ex .2ex;
+	width:auto;
+	display:block;
+	overflow:hidden;
+	margin:1ex;
+	text-align:center;
+	visibility:hidden;
+}
+
+a.nextPageJumpElement:hover
+{
+	text-decoration:none;
+	color:white;
+	background-image:url(../Images/Daimond.Blue.png);
+	border:1px solid white;
+}
+
+a.nextPageJumpElement:active
+{
+	text-decoration:none;
+	color:white;
+	font-weight:600;
+	background-image:url(../Images/Daimond.Blue.png);
+	border:1px solid #666666;
+}

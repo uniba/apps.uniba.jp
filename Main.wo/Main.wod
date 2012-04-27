@@ -1,0 +1,109 @@
+COPYRIGHT: WOString {
+	value = "Generic Copyright Stuff 2005";
+}
+
+Conditional1: WOConditional {
+	condition = true;
+}
+
+Conditional2: WOConditional {
+	condition = true;
+}
+
+Conditional3: WOConditional {
+	condition = true;
+}
+
+Conditional4: WOConditional {
+	negate = false;
+	condition = true;
+}
+
+Conditional5: WOConditional {
+	condition = true;
+}
+
+GenericElement1: WOGenericElement
+{
+	elementName = "LINK";
+	href = "/CSS/Maxsys-Document-Main.css";
+	rel = "stylesheet";
+	type = "text/css";
+}
+
+PageJumpRepetition: WORepetition {
+	count = 2;
+}
+
+Repetition1: WORepetition
+{
+	count = 5;
+}
+
+Repetition2: WORepetition {
+	count = 2;
+}
+
+Repetition3: WORepetition {
+	count = 3;
+}
+
+Repetition4: WORepetition
+{
+	count = 7;
+}
+
+String1: WOString {
+	value = "Name1";
+}
+
+String10: WOString {
+	value = session.paragraphText;
+}
+
+String11: WOString {
+	value = "Generic Quoted Content";
+}
+
+String12: WOString
+{
+	value = session.pageTitle;
+}
+
+String13: WOString
+{
+	value = "Button";
+	valueWhenEmpty = "Empty";
+}
+
+String2: WOString {
+	value = "SubName";
+}
+
+String3: WOString {
+	value = "Banner Text";
+}
+
+String4: WOString {
+	value = "Button";
+}
+
+String5: WOString {
+	value = "Item";
+}
+
+String6: WOString {
+	value = "Button";
+}
+
+String7: WOString {
+	value = "Generic Heading";
+}
+
+String8: WOString {
+	value = "Generic Image";
+}
+
+String9: WOString {
+	value = "Generic Image Description";
+}

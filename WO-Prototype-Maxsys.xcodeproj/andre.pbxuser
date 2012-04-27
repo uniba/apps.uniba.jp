@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	013357CCFF5DD5F011CD2B9D /* Project object */ = {
+		activeArchitecture = i386;
+		activeBuildConfigurationName = Development;
+		activeExecutable = C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */;
+		activeTarget = 017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */;
+		codeSenseManager = 65DC20A00CAF5AEF00F96DC7 /* Code sense */;
+		executables = (
+			C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					795,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 212818637;
+			PBXWorkspaceStateSaveDate = 212818637;
+		};
+		perUserProjectItems = {
+			65DC21B00CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B00CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B10CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B10CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B20CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B20CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B30CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B30CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B40CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B40CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B50CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B50CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B60CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B60CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B70CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B70CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B80CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B80CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21B90CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21B90CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21BA0CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21BA0CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21BB0CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21BB0CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21BC0CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21BC0CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21BD0CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21BD0CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21BE0CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21BE0CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21BF0CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21BF0CB25F4100F96DC7 /* PBXTextBookmark */;
+			65DC21C00CB25F4100F96DC7 /* PBXTextBookmark */ = 65DC21C00CB25F4100F96DC7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 65DC209F0CAF5AEF00F96DC7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	017C60B4FFD2F2BB7F000001 /* Application Server */ = {
+		activeExec = 0;
+	};
+	017C60D6FFD2F2BB7F000001 /* Web Server */ = {
+		activeExec = 0;
+	};
+	017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */ = {
+		activeExec = 0;
+		executables = (
+			C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */,
+		);
+	};
+	65DC209F0CAF5AEF00F96DC7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+	};
+	65DC20A00CAF5AEF00F96DC7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	65DC21B00CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5D0785E57500C94196 /* IE6.css */;
+		name = "IE6.css: 68";
+		rLen = 0;
+		rLoc = 666;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 486;
+	};
+	65DC21B10CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
+		name = "Maxsys-Document-Main.css: 1";
+		rLen = 13834;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 984;
+		vrLoc = 1421;
+	};
+	65DC21B20CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 95";
+		rLen = 17;
+		rLoc = 4328;
+		rType = 0;
+		vrLen = 2660;
+		vrLoc = 3154;
+	};
+	65DC21B30CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 142";
+		rLen = 0;
+		rLoc = 7602;
+		rType = 0;
+		vrLen = 2716;
+		vrLoc = 3090;
+	};
+	65DC21B40CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5D0785E57500C94196 /* IE6.css */;
+		name = "IE6.css: 109";
+		rLen = 20;
+		rLoc = 1256;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 948;
+	};
+	65DC21B50CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 99";
+		rLen = 20;
+		rLoc = 4408;
+		rType = 0;
+		vrLen = 2716;
+		vrLoc = 3090;
+	};
+	65DC21B60CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5D0785E57500C94196 /* IE6.css */;
+		name = "IE6.css: 32";
+		rLen = 20;
+		rLoc = 275;
+		rType = 0;
+		vrLen = 525;
+		vrLoc = 37;
+	};
+	65DC21B70CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
+		name = "Maxsys-Document-Main.css: 463";
+		rLen = 354;
+		rLoc = 8356;
+		rType = 0;
+		vrLen = 854;
+		vrLoc = 8120;
+	};
+	65DC21B80CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 100";
+		rLen = 17;
+		rLoc = 4447;
+		rType = 0;
+		vrLen = 2716;
+		vrLoc = 3090;
+	};
+	65DC21B90CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
+		name = "Maxsys-Document-Main.css: 461";
+		rLen = 711;
+		rLoc = 8329;
+		rType = 0;
+		vrLen = 860;
+		vrLoc = 8214;
+	};
+	65DC21BA0CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 100";
+		rLen = 17;
+		rLoc = 4447;
+		rType = 0;
+		vrLen = 2716;
+		vrLoc = 3090;
+	};
+	65DC21BB0CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
+		name = "Maxsys-Document-Main.css: 461";
+		rLen = 20;
+		rLoc = 8330;
+		rType = 0;
+		vrLen = 837;
+		vrLoc = 8237;
+	};
+	65DC21BC0CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5D0785E57500C94196 /* IE6.css */;
+		name = "IE6.css: 78";
+		rLen = 20;
+		rLoc = 775;
+		rType = 0;
+		vrLen = 738;
+		vrLoc = 486;
+	};
+	65DC21BD0CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 95";
+		rLen = 17;
+		rLoc = 4328;
+		rType = 0;
+		vrLen = 2668;
+		vrLoc = 3154;
+	};
+	65DC21BE0CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5D0785E57500C94196 /* IE6.css */;
+		name = "IE6.css: 68";
+		rLen = 0;
+		rLoc = 666;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 486;
+	};
+	65DC21BF0CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
+		name = "Maxsys-Document-Main.css: 1";
+		rLen = 13834;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 984;
+		vrLoc = 1421;
+	};
+	65DC21C00CB25F4100F96DC7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
+		name = "Maxsys WO Test.html: 8";
+		rLen = 429;
+		rLoc = 317;
+		rType = 0;
+		vrLen = 1727;
+		vrLoc = 0;
+	};
+	B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 2198}}";
+			sepNavSelRange = "{317, 429}";
+			sepNavVisRange = "{0, 1727}";
+		};
+	};
+	B3A04C5D0785E57500C94196 /* IE6.css */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 1876}}";
+			sepNavSelRange = "{666, 0}";
+			sepNavVisRange = "{486, 739}";
+		};
+	};
+	B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {973, 10920}}";
+			sepNavSelRange = "{0, 13834}";
+			sepNavVisRange = "{1421, 984}";
+		};
+	};
+	C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = JavaDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "WO-Prototype-Maxsys";
+		sourceDirectories = (
+		);
+	};
+}

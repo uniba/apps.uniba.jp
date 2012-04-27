@@ -1,0 +1,15 @@
+{
+    EOModelVersion = "2.1"; 
+    adaptorName = JDBC; 
+    connectionDictionary = {
+        "LC_ALL" = "iso_1"; 
+        URL = "jdbc:openbase://127.0.0.1/MYDATABASE"; 
+        databaseEncoding = "UTF-16"; 
+        driver = ""; 
+        key = value; 
+        password = ""; 
+        plugin = ""; 
+        username = ""; 
+    }; 
+    entities = (); 
+}

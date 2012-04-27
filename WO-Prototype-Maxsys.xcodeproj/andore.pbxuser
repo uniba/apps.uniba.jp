@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	013357CCFF5DD5F011CD2B9D /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeBuildStyle = 01A3BF6FFFB0C37D11CD2B9D /* Development */;
+		activeExecutable = C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */;
+		activeTarget = 017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */;
+		addToTargets = (
+			017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */,
+		);
+		codeSenseManager = B3A41AC40784CADB00FA607A /* Code sense */;
+		executables = (
+			C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					453,
+					20,
+					92,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					403,
+					88,
+					20,
+					88,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 161066795;
+			PBXPrepackagedSmartGroups_v2 = (
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					activationKey = OldTargetSmartGroup;
+					clz = PBXTargetSmartGroup;
+					description = "Displays all targets of the project.";
+					globalID = 1C37FABC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXTargetSmartGroup2;
+					description = "Displays all targets of the project as well as nested build phases.";
+					globalID = 1C37FBAC04509CD000000102;
+					name = Targets;
+					preferences = {
+						image = Targets;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXExecutablesSmartGroup;
+					description = "Displays all executables of the project.";
+					globalID = 1C37FAAC04509CD000000102;
+					name = Executables;
+					preferences = {
+						image = Executable;
+					};
+				},
+				{
+					" PBXTransientLocationAtTop " = bottom;
+					absolutePathToBundle = "";
+					clz = PBXErrorsWarningsSmartGroup;
+					description = "Displays files with errors or warnings.";
+					globalID = 1C08E77C0454961000C914BD;
+					name = "Errors and Warnings";
+					preferences = {
+						fnmatch = "";
+						image = WarningsErrors;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = 1CC0EA4004350EF90044410B;
+					name = "Implementation Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "This group displays Interface Builder NIB Files.";
+					globalID = 1CC0EA4004350EF90041110B;
+					name = "NIB Files";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXFindSmartGroup;
+					description = "Displays Find Results.";
+					globalID = 1C37FABC05509CD000000102;
+					name = "Find Results";
+					preferences = {
+						image = spyglass;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = no;
+					absolutePathToBundle = "";
+					clz = PBXBookmarksSmartGroup;
+					description = "Displays Project Bookmarks.";
+					globalID = 1C37FABC05539CD112110102;
+					name = Bookmarks;
+					preferences = {
+						image = Bookmarks;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = XCSCMSmartGroup;
+					description = "Displays files with interesting SCM status.";
+					globalID = E2644B35053B69B200211256;
+					name = SCM;
+					preferences = {
+						image = PBXRepository;
+						isLeaf = 0;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXSymbolsSmartGroup;
+					description = "Displays all symbols for the project.";
+					globalID = 1C37FABC04509CD000100104;
+					name = "Project Symbols";
+					preferences = {
+						image = ProjectSymbols;
+						isLeaf = 1;
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Filter SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "*.nib";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					absolutePathToBundle = "";
+					clz = PBXFilenameSmartGroup;
+					description = "Filters items in a given group (potentially recursively) based on matching the name with the regular expression of the filter.";
+					globalID = PBXTemplateMarker;
+					name = "Simple Regular Expression SmartGroup";
+					preferences = {
+						canSave = 1;
+						fnmatch = "";
+						image = SmartFolder;
+						isLeaf = 0;
+						recursive = 1;
+						regex = "?*\\.[mcMC]";
+						root = "<PROJECT>";
+					};
+				},
+				{
+					PBXTransientLocationAtTop = bottom;
+					clz = XDDesignSmartGroup;
+					description = "Displays Xdesign models";
+					globalID = 2E4A936305E6979E00701470;
+					name = Design;
+					preferences = {
+						image = Design;
+						isLeaf = 0;
+					};
+				},
+			);
+			PBXWorkspaceStateSaveDate = 161066795;
+		};
+		perUserProjectItems = {
+			B3C099BE0999AFDF00550ADC /* PBXTextBookmark */ = B3C099BE0999AFDF00550ADC /* PBXTextBookmark */;
+			B3C099BF0999AFDF00550ADC /* XDModelBookmark */ = B3C099BF0999AFDF00550ADC /* XDModelBookmark */;
+			B3C099C00999AFDF00550ADC /* PBXTextBookmark */ = B3C099C00999AFDF00550ADC /* PBXTextBookmark */;
+			B3C099C10999AFDF00550ADC /* XDModelBookmark */ = B3C099C10999AFDF00550ADC /* XDModelBookmark */;
+		};
+		sourceControlManager = B3A41AC30784CADB00FA607A /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	017C60B4FFD2F2BB7F000001 /* Application Server */ = {
+		activeExec = 0;
+	};
+	017C60D6FFD2F2BB7F000001 /* Web Server */ = {
+		activeExec = 0;
+	};
+	017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */ = {
+		activeExec = 0;
+		executables = (
+			C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */,
+		);
+	};
+	2123FDF6FFD467417F000001 /* Application.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 336}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 270}}";
+		};
+	};
+	2123FDF7FFD467417F000001 /* Session.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1187, 522}}";
+			sepNavSelRange = "{521, 0}";
+			sepNavVisRect = "{{0, 287}, {1187, 235}}";
+		};
+	};
+	2123FDF8FFD467417F000001 /* DirectAction.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 487}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {747, 487}}";
+		};
+	};
+	2123FDFBFFD467417F000001 /* Main.java */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 487}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {747, 487}}";
+		};
+	};
+	B38DF6620996B34C009E73B3 /* Main.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = Main.html;
+		path = "/Users/andore/Documents/Work.localized/Maxsys/Website/New Website/Implementation/Versions/WO Test Maxsy 1/WO-Prototype-Maxsys/Main.wo/Main.html";
+		sourceTree = "<absolute>";
+	};
+	B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4212, 1818}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 270}}";
+		};
+	};
+	B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {747, 11017}}";
+			sepNavSelRange = "{2422, 0}";
+			sepNavVisRect = "{{0, 1764}, {747, 487}}";
+		};
+	};
+	B3A04C650785E57600C94196 /* fixed.js */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 4613}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 1831}, {703, 270}}";
+		};
+	};
+	B3A04C6A0785E57600C94196 /* Shadow.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 165}, {812, 576}}";
+		};
+	};
+	B3A04C760785E57600C94196 /* fixed.js */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 4613}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 270}}";
+		};
+	};
+	B3A04C780785E57600C94196 /* ie7-css2.js */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {43274, 270}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 270}}";
+		};
+	};
+	B3A04C790785E57600C94196 /* ie7-css3.js */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {10627, 270}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 270}}";
+		};
+	};
+	B3A04C7A0785E57600C94196 /* ie7-png.js */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {6041, 270}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 270}}";
+		};
+	};
+	B3A41AC30784CADB00FA607A /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	B3A41AC40784CADB00FA607A /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B3A41ADB0784CBAD00FA607A /* Maxsys WO Test.html */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4212, 1831}}";
+			sepNavSelRange = "{632, 0}";
+			sepNavVisRect = "{{0, 0}, {703, 330}}";
+			sepNavWindowFrame = "{{38, 144}, {812, 576}}";
+		};
+	};
+	B3C099BB0999AF5200550ADC /* MaxsysDocument.eomodeld */ = {
+		uiCtxt = {
+			"Xdesign Model Editor Bookmark Key" = {
+				UIContextForDetailArea = {
+					_indexOfSelectedPane = 0;
+					_indexOfSelectedView = 0;
+				};
+				UIContextForEntityArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnns = (
+						"ET Entity",
+						"ET Abstract",
+					);
+					chosenTableColumnns_sortDirections = (
+					);
+					chosenTableColumnns_sortKeys = (
+					);
+					chosenTableColumnns_sortSelectors = (
+					);
+					chosenTableWidths = (
+						103.000000,
+						48.000000,
+					);
+				};
+				UIContextForLayoutManager = {
+					detailSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {529, 176}}",
+							"{{534, 0}, {282, 176}}",
+						);
+					};
+					diagramSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {816, 176}}",
+							"{{0, 181}, {816, 0}}",
+						);
+					};
+					tableSplitGeometry = {
+						_collapsingFrameDimension = 0;
+						_indexOfCollapsedView = 0;
+						_percentageOfCollapsedView = 0;
+						isCollapsed = yes;
+						sizes = (
+							"{{0, 0}, {169, 176}}",
+							"{{174, 0}, {354, 176}}",
+						);
+					};
+				};
+				UIContextForPropertyArea = {
+					_indexOfSelectedView = 0;
+					chosenTableColumnnsAT = (
+						"AT Attribute",
+						"AT Value Class",
+					);
+					chosenTableColumnnsAT_sortDirections = (
+					);
+					chosenTableColumnnsAT_sortKeys = (
+					);
+					chosenTableColumnnsAT_sortSelectors = (
+					);
+					chosenTableColumnnsPT = (
+						"PT Property",
+						"PT Kind",
+					);
+					chosenTableColumnnsPT_sortDirections = (
+					);
+					chosenTableColumnnsPT_sortKeys = (
+					);
+					chosenTableColumnnsPT_sortSelectors = (
+					);
+					chosenTableColumnnsRT = (
+						"RT Relationship",
+						"RT Destination",
+					);
+					chosenTableColumnnsRT_sortDirections = (
+					);
+					chosenTableColumnnsRT_sortKeys = (
+					);
+					chosenTableColumnnsRT_sortSelectors = (
+					);
+					chosenTableWidthsAT = (
+						120.000000,
+						96.961914,
+					);
+					chosenTableWidthsPT = (
+						128.000000,
+						207.110840,
+					);
+					chosenTableWidthsRT = (
+						128.000000,
+						102.000000,
+					);
+				};
+				"xdesign model browser state key - shown/hidden" = 1;
+				"xdesign model diagram view visible rect key" = "{{-77, 72}, {801, 0}}";
+			};
+			sepNavWindowFrame = "{{15, 62}, {920, 684}}";
+		};
+	};
+	B3C099BE0999AFDF00550ADC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B38DF6620996B34C009E73B3 /* Main.html */;
+		name = "Main.html: 11";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 0;
+	};
+	B3C099BF0999AFDF00550ADC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = B3C099BB0999AF5200550ADC /* MaxsysDocument.eomodeld */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 1;
+				_indexOfSelectedView = 1;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+				);
+				chosenTableColumnns_sortDirections = (
+				);
+				chosenTableColumnns_sortKeys = (
+				);
+				chosenTableColumnns_sortSelectors = (
+				);
+				chosenTableWidths = (
+					103.000000,
+					48.000000,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {529, 176}}",
+						"{{534, 0}, {282, 176}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {816, 176}}",
+						"{{0, 181}, {816, 0}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {169, 176}}",
+						"{{174, 0}, {354, 176}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Value Class",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+				);
+				chosenTableColumnnsAT_sortKeys = (
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+				);
+				chosenTableColumnnsPT_sortKeys = (
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+				);
+				chosenTableColumnnsRT_sortKeys = (
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+				);
+				chosenTableWidthsAT = (
+					120.000000,
+					96.961914,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					207.110840,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					102.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-77, 0}, {801, 0}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	B3C099C00999AFDF00550ADC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B38DF6620996B34C009E73B3 /* Main.html */;
+		name = "Main.html: 11";
+		rLen = 0;
+		rLoc = 434;
+		rType = 0;
+		vrLen = 604;
+		vrLoc = 0;
+	};
+	B3C099C10999AFDF00550ADC /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = B3C099BB0999AF5200550ADC /* MaxsysDocument.eomodeld */;
+		fallbackIsa = PBXBookmark;
+		uiCtxt = {
+			UIContextForDetailArea = {
+				_indexOfSelectedPane = 0;
+				_indexOfSelectedView = 0;
+			};
+			UIContextForEntityArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnns = (
+					"ET Entity",
+					"ET Abstract",
+				);
+				chosenTableColumnns_sortDirections = (
+				);
+				chosenTableColumnns_sortKeys = (
+				);
+				chosenTableColumnns_sortSelectors = (
+				);
+				chosenTableWidths = (
+					103.000000,
+					48.000000,
+				);
+			};
+			UIContextForLayoutManager = {
+				detailSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {529, 176}}",
+						"{{534, 0}, {282, 176}}",
+					);
+				};
+				diagramSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {816, 176}}",
+						"{{0, 181}, {816, 0}}",
+					);
+				};
+				tableSplitGeometry = {
+					_collapsingFrameDimension = 0;
+					_indexOfCollapsedView = 0;
+					_percentageOfCollapsedView = 0;
+					isCollapsed = yes;
+					sizes = (
+						"{{0, 0}, {169, 176}}",
+						"{{174, 0}, {354, 176}}",
+					);
+				};
+			};
+			UIContextForPropertyArea = {
+				_indexOfSelectedView = 0;
+				chosenTableColumnnsAT = (
+					"AT Attribute",
+					"AT Value Class",
+				);
+				chosenTableColumnnsAT_sortDirections = (
+				);
+				chosenTableColumnnsAT_sortKeys = (
+				);
+				chosenTableColumnnsAT_sortSelectors = (
+				);
+				chosenTableColumnnsPT = (
+					"PT Property",
+					"PT Kind",
+				);
+				chosenTableColumnnsPT_sortDirections = (
+				);
+				chosenTableColumnnsPT_sortKeys = (
+				);
+				chosenTableColumnnsPT_sortSelectors = (
+				);
+				chosenTableColumnnsRT = (
+					"RT Relationship",
+					"RT Destination",
+				);
+				chosenTableColumnnsRT_sortDirections = (
+				);
+				chosenTableColumnnsRT_sortKeys = (
+				);
+				chosenTableColumnnsRT_sortSelectors = (
+				);
+				chosenTableWidthsAT = (
+					120.000000,
+					96.961914,
+				);
+				chosenTableWidthsPT = (
+					128.000000,
+					207.110840,
+				);
+				chosenTableWidthsRT = (
+					128.000000,
+					102.000000,
+				);
+			};
+			"xdesign model browser state key - shown/hidden" = 1;
+			"xdesign model diagram view visible rect key" = "{{-77, 72}, {801, 0}}";
+			"xdesign model selected entities key" = (
+			);
+			"xdesign model selected properties key" = (
+			);
+		};
+	};
+	C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */ = {
+		isa = PBXExecutable;
+		activeArgIndex = 2147483647;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = JavaDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "WO-Prototype-Maxsys";
+		sourceDirectories = (
+		);
+	};
+}
