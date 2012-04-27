@@ -332,7 +332,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>65DC21AE0CB25F4100F96DC7</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Maxsys WO Test.html</string>
+								<string>Prototype WO Test.html</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -340,7 +340,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>65DC21AF0CB25F4100F96DC7</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Maxsys WO Test.html</string>
+										<string>Prototype WO Test.html</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
@@ -656,7 +656,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/andre/Documents/Work.localized/Maxsys/Website/New Website/Implementation/Versions/WO Test Maxsy 1/WO-Prototype-Maxsys/WO-Prototype-Maxsys.xcodeproj</string>
+		<string>/Users/andre/Documents/Work.localized/Prototype/Website/New Website/Implementation/Versions/WO Test Maxsy 1/WO-Prototype-Prototype/WO-Prototype-Prototype.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 116 1440 762 0 0 1440 878 </string>

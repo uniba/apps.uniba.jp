@@ -1,6 +1,6 @@
 //
 // Session.java
-// Project WO-Prototype-Maxsys
+// Project WO-Prototype-Prototype
 //
 // Created by andore on 04/12/30
 //

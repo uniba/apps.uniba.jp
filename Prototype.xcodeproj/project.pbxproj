@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXApplicationTarget section */
-		017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */ = {
+		017C6100FFD43DA37F000001 /* WO-Prototype-Prototype */ = {
 			isa = PBXApplicationTarget;
-			buildConfigurationList = B3F0D1B7086C083500992F80 /* Build configuration list for PBXApplicationTarget "WO-Prototype-Maxsys" */;
+			buildConfigurationList = B3F0D1B7086C083500992F80 /* Build configuration list for PBXApplicationTarget "WO-Prototype-Prototype" */;
 			buildPhases = (
 				017C6103FFD43DA37F000001 /* Sources */,
 				017C6104FFD43DA37F000001 /* Resources */,
@@ -26,10 +26,10 @@
 				017C6101FFD43DA37F000001 /* PBXTargetDependency */,
 				017C6102FFD43DA37F000001 /* PBXTargetDependency */,
 			);
-			name = "WO-Prototype-Maxsys";
+			name = "WO-Prototype-Prototype";
 			productInstallPath = "$(LOCAL_LIBRARY_DIR)/WebObjects/Applications";
 			productName = NewWrapper;
-			productReference = 017C60FFFFD43DA37F000001 /* WO-Prototype-Maxsys.woa */;
+			productReference = 017C60FFFFD43DA37F000001 /* WO-Prototype-Prototype.woa */;
 			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
@@ -37,7 +37,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>WO-Prototype-Maxsys</string>
+	<string>WO-Prototype-Prototype</string>
 	<key>CFBundleGetInfoString</key>
 	<string></string>
 	<key>CFBundleIconFile</key>
@@ -62,7 +62,7 @@
 		<string>1.4+</string>
 	</dict>
 	<key>NSExecutable</key>
-	<string>WO-Prototype-Maxsys</string>
+	<string>WO-Prototype-Prototype</string>
 	<key>NSJavaClientRoot</key>
 	<string>Contents/WebServerResources/Java</string>
 	<key>NSJavaNeeded</key>
@@ -72,7 +72,7 @@
 		<string>wo-prototype-maxsys.jar</string>
 	</array>
 	<key>NSJavaPathClient</key>
-	<string>WO-Prototype-Maxsys.jar</string>
+	<string>WO-Prototype-Prototype.jar</string>
 	<key>NSJavaRoot</key>
 	<string>Contents/Resources/Java</string>
 </dict>
@@ -107,7 +107,7 @@
 		B3A04C970785E57600C94196 /* ie7-css3.js in Sources */ = {isa = PBXBuildFile; fileRef = B3A04C790785E57600C94196 /* ie7-css3.js */; };
 		B3A04C980785E57600C94196 /* ie7-png.js in Sources */ = {isa = PBXBuildFile; fileRef = B3A04C7A0785E57600C94196 /* ie7-png.js */; };
 		B3A04C990785E57600C94196 /* sleight.js in Sources */ = {isa = PBXBuildFile; fileRef = B3A04C7B0785E57600C94196 /* sleight.js */; };
-		B3A04CF80785EAA300C94196 /* Maxsys WO Test.html in Resources */ = {isa = PBXBuildFile; fileRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */; };
+		B3A04CF80785EAA300C94196 /* Prototype WO Test.html in Resources */ = {isa = PBXBuildFile; fileRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */; };
 		B3A04D0E0785EC4A00C94196 /* Aluminium.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C600785E57500C94196 /* Aluminium.png */; };
 		B3A04D0F0785EC4A00C94196 /* blank.gif in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C610785E57500C94196 /* blank.gif */; };
 		B3A04D100785EC4A00C94196 /* Daimond.Blue.png in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C620785E57500C94196 /* Daimond.Blue.png */; };
@@ -136,7 +136,7 @@
 		B3A04D280785EC7C00C94196 /* ie7-png.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C7A0785E57600C94196 /* ie7-png.js */; };
 		B3A04D290785EC7C00C94196 /* sleight.js in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C7B0785E57600C94196 /* sleight.js */; };
 		B3A04D2B0785ECA800C94196 /* IE6.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C5D0785E57500C94196 /* IE6.css */; };
-		B3A04D2C0785ECA800C94196 /* Maxsys-Document-Main.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */; };
+		B3A04D2C0785ECA800C94196 /* Prototype-Document-Main.css in CopyFiles */ = {isa = PBXBuildFile; fileRef = B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */; };
 		B3A41AAF0784CAC400FA607A /* JavaJDBCAdaptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AAE0784CAC400FA607A /* JavaJDBCAdaptor.framework */; };
 		B3A41AB10784CAC400FA607A /* JavaJNDIAdaptor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AB00784CAC400FA607A /* JavaJNDIAdaptor.framework */; };
 		B3A41AB30784CAC400FA607A /* JavaWOJSPServlet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AB20784CAC400FA607A /* JavaWOJSPServlet.framework */; };
@@ -144,7 +144,7 @@
 		B3A41AB70784CAC400FA607A /* JavaWebServicesClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AB40784CAC400FA607A /* JavaWebServicesClient.framework */; };
 		B3A41ABA0784CAC400FA607A /* server.wsdd in Resources */ = {isa = PBXBuildFile; fileRef = B3A41AB90784CAC400FA607A /* server.wsdd */; };
 		B3A41ABB0784CAC400FA607A /* JavaWebServicesSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AB80784CAC400FA607A /* JavaWebServicesSupport.framework */; };
-		B3C099BC0999AF5200550ADC /* MaxsysDocument.eomodeld in Resources */ = {isa = PBXBuildFile; fileRef = B3C099BB0999AF5200550ADC /* MaxsysDocument.eomodeld */; };
+		B3C099BC0999AF5200550ADC /* PrototypeDocument.eomodeld in Resources */ = {isa = PBXBuildFile; fileRef = B3C099BB0999AF5200550ADC /* PrototypeDocument.eomodeld */; };
 		C65E1ED90072974704CD2B8D /* WOAfile.icns in Resources */ = {isa = PBXBuildFile; fileRef = C65E1ED80072974704CD2B8D /* WOAfile.icns */; };
 		FF70E86D02244EA903CD29B6 /* Properties in Resources */ = {isa = PBXBuildFile; fileRef = FF70E86C02244EA903CD29B6 /* Properties */; };
 /* End PBXBuildFile section */
@@ -165,7 +165,7 @@
 			name = "Application Server";
 			productInstallPath = "$(USER_APPS_DIR)";
 			productName = "Server App";
-			productReference = 017C60B1FFD2F2BB7F000001 /* _WOServerWO-Prototype-Maxsys.tmp */;
+			productReference = 017C60B1FFD2F2BB7F000001 /* _WOServerWO-Prototype-Prototype.tmp */;
 			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
@@ -173,7 +173,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>_WO$(SERVER_UNIQUIFIER)WO-Prototype-Maxsys</string>
+	<string>_WO$(SERVER_UNIQUIFIER)WO-Prototype-Prototype</string>
 	<key>CFBundleGetInfoString</key>
 	<string></string>
 	<key>CFBundleIconFile</key>
@@ -215,7 +215,7 @@
 			);
 			name = "Web Server";
 			productName = "Client App";
-			productReference = 017C60B2FFD2F2BB7F000001 /* _WOClientWO-Prototype-Maxsys.tmp */;
+			productReference = 017C60B2FFD2F2BB7F000001 /* _WOClientWO-Prototype-Prototype.tmp */;
 			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
 <!DOCTYPE plist PUBLIC \"-//Apple//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
 <plist version=\"1.0\">
@@ -223,7 +223,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Maxsys</string>
+	<string>_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Prototype</string>
 	<key>CFBundleGetInfoString</key>
 	<string></string>
 	<key>CFBundleIconFile</key>
@@ -323,7 +323,7 @@
 			dstSubfolderSpec = 7;
 			files = (
 				B3A04D2B0785ECA800C94196 /* IE6.css in CopyFiles */,
-				B3A04D2C0785ECA800C94196 /* Maxsys-Document-Main.css in CopyFiles */,
+				B3A04D2C0785ECA800C94196 /* Prototype-Document-Main.css in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,9 +331,9 @@
 
 /* Begin PBXFileReference section */
 		016FA8CAFFE5B8A311CD2B8D /* Main.wo */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = folder; path = Main.wo; sourceTree = "<group>"; };
-		017C60B1FFD2F2BB7F000001 /* _WOServerWO-Prototype-Maxsys.tmp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = "_WOServerWO-Prototype-Maxsys.tmp"; sourceTree = BUILT_PRODUCTS_DIR; };
-		017C60B2FFD2F2BB7F000001 /* _WOClientWO-Prototype-Maxsys.tmp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = "_WOClientWO-Prototype-Maxsys.tmp"; sourceTree = BUILT_PRODUCTS_DIR; };
-		017C60FFFFD43DA37F000001 /* WO-Prototype-Maxsys.woa */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "WO-Prototype-Maxsys.woa"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017C60B1FFD2F2BB7F000001 /* _WOServerWO-Prototype-Prototype.tmp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = "_WOServerWO-Prototype-Prototype.tmp"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017C60B2FFD2F2BB7F000001 /* _WOClientWO-Prototype-Prototype.tmp */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = "_WOClientWO-Prototype-Prototype.tmp"; sourceTree = BUILT_PRODUCTS_DIR; };
+		017C60FFFFD43DA37F000001 /* WO-Prototype-Prototype.woa */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "WO-Prototype-Prototype.woa"; sourceTree = BUILT_PRODUCTS_DIR; };
 		022D13060059B68211CD2978 /* JavaXML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaXML.framework; path = /System/Library/Frameworks/JavaXML.framework; sourceTree = "<absolute>"; };
 		096CB46FFF7BFC8111CD2B9D /* JavaWebObjects.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaWebObjects.framework; path = /System/Library/Frameworks/JavaWebObjects.framework; sourceTree = "<absolute>"; };
 		096CB471FF7BFD6311CD2B9D /* JavaFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaFoundation.framework; path = /System/Library/Frameworks/JavaFoundation.framework; sourceTree = "<absolute>"; };
@@ -345,9 +345,9 @@
 		2123FDF8FFD467417F000001 /* DirectAction.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = DirectAction.java; sourceTree = "<group>"; };
 		2123FDFBFFD467417F000001 /* Main.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = Main.java; sourceTree = "<group>"; };
 		2123FDFCFFD467417F000001 /* Main.api */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.woapi; path = Main.api; sourceTree = "<group>"; };
-		B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Maxsys WO Test.html"; sourceTree = "<group>"; };
+		B3A04C5B0785E57500C94196 /* Prototype WO Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Prototype WO Test.html"; sourceTree = "<group>"; };
 		B3A04C5D0785E57500C94196 /* IE6.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IE6.css; sourceTree = "<group>"; };
-		B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Maxsys-Document-Main.css"; sourceTree = "<group>"; };
+		B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Prototype-Document-Main.css"; sourceTree = "<group>"; };
 		B3A04C600785E57500C94196 /* Aluminium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Aluminium.png; sourceTree = "<group>"; };
 		B3A04C610785E57500C94196 /* blank.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = blank.gif; sourceTree = "<group>"; };
 		B3A04C620785E57500C94196 /* Daimond.Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Daimond.Blue.png; sourceTree = "<group>"; };
@@ -383,8 +383,8 @@
 		B3A41AB50784CAC400FA607A /* client.wsdd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = client.wsdd; sourceTree = "<group>"; };
 		B3A41AB80784CAC400FA607A /* JavaWebServicesSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaWebServicesSupport.framework; path = /System/Library/Frameworks/JavaWebServicesSupport.framework; sourceTree = "<absolute>"; };
 		B3A41AB90784CAC400FA607A /* server.wsdd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = server.wsdd; sourceTree = "<group>"; };
-		B3A41ADB0784CBAD00FA607A /* Maxsys WO Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Maxsys WO Test.html"; sourceTree = "<group>"; };
-		B3C099BB0999AF5200550ADC /* MaxsysDocument.eomodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.eomodeld; path = MaxsysDocument.eomodeld; sourceTree = "<group>"; };
+		B3A41ADB0784CBAD00FA607A /* Prototype WO Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Prototype WO Test.html"; sourceTree = "<group>"; };
+		B3C099BB0999AF5200550ADC /* PrototypeDocument.eomodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.eomodeld; path = PrototypeDocument.eomodeld; sourceTree = "<group>"; };
 		C65E1ED80072974704CD2B8D /* WOAfile.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WOAfile.icns; sourceTree = "<group>"; };
 		FF70E86C02244EA903CD29B6 /* Properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Properties; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -448,7 +448,7 @@
 		013357CEFF5DD64811CD2B9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				017C60FFFFD43DA37F000001 /* WO-Prototype-Maxsys.woa */,
+				017C60FFFFD43DA37F000001 /* WO-Prototype-Prototype.woa */,
 				0B4F248B00221FBD11CD2B8D /* Intermediates */,
 			);
 			name = Products;
@@ -500,8 +500,8 @@
 		0B4F248B00221FBD11CD2B8D /* Intermediates */ = {
 			isa = PBXGroup;
 			children = (
-				017C60B1FFD2F2BB7F000001 /* _WOServerWO-Prototype-Maxsys.tmp */,
-				017C60B2FFD2F2BB7F000001 /* _WOClientWO-Prototype-Maxsys.tmp */,
+				017C60B1FFD2F2BB7F000001 /* _WOServerWO-Prototype-Prototype.tmp */,
+				017C60B2FFD2F2BB7F000001 /* _WOClientWO-Prototype-Prototype.tmp */,
 			);
 			name = Intermediates;
 			sourceTree = "<group>";
@@ -525,7 +525,7 @@
 				B3A41AAD0784CAC400FA607A /* Servlet Resources */,
 				B3A41AB50784CAC400FA607A /* client.wsdd */,
 				B3A41AB90784CAC400FA607A /* server.wsdd */,
-				B3C099BB0999AF5200550ADC /* MaxsysDocument.eomodeld */,
+				B3C099BB0999AF5200550ADC /* PrototypeDocument.eomodeld */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -534,7 +534,7 @@
 			isa = PBXGroup;
 			children = (
 				016FA8CAFFE5B8A311CD2B8D /* Main.wo */,
-				B3A41ADB0784CBAD00FA607A /* Maxsys WO Test.html */,
+				B3A41ADB0784CBAD00FA607A /* Prototype WO Test.html */,
 				2123FDFBFFD467417F000001 /* Main.java */,
 				2123FDFCFFD467417F000001 /* Main.api */,
 			);
@@ -551,7 +551,7 @@
 		B3A04C5A0785E57500C94196 /* Backup */ = {
 			isa = PBXGroup;
 			children = (
-				B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */,
+				B3A04C5B0785E57500C94196 /* Prototype WO Test.html */,
 			);
 			path = Backup;
 			sourceTree = "<group>";
@@ -560,7 +560,7 @@
 			isa = PBXGroup;
 			children = (
 				B3A04C5D0785E57500C94196 /* IE6.css */,
-				B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */,
+				B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */,
 			);
 			path = CSS;
 			sourceTree = "<group>";
@@ -635,7 +635,7 @@
 /* Begin PBXProject section */
 		013357CCFF5DD5F011CD2B9D /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "WO-Prototype-Maxsys" */;
+			buildConfigurationList = B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "WO-Prototype-Prototype" */;
 			compatibilityVersion = "Xcode 2.4";
 			hasScannedForEncodings = 1;
 			mainGroup = 013357CDFF5DD5F011CD2B9D;
@@ -643,7 +643,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */,
+				017C6100FFD43DA37F000001 /* WO-Prototype-Prototype */,
 				017C60B4FFD2F2BB7F000001 /* Application Server */,
 				017C60D6FFD2F2BB7F000001 /* Web Server */,
 			);
@@ -675,8 +675,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3A04CF80785EAA300C94196 /* Maxsys WO Test.html in Resources */,
-				B3C099BC0999AF5200550ADC /* MaxsysDocument.eomodeld in Resources */,
+				B3A04CF80785EAA300C94196 /* Prototype WO Test.html in Resources */,
+				B3C099BC0999AF5200550ADC /* PrototypeDocument.eomodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -801,7 +801,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Prototype";
 				SERVER_UNIQUIFIER = Server;
 				SPLIT_INSTALL = NO;
 				WRAPPER_EXTENSION = tmp;
@@ -830,7 +830,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Prototype";
 				SERVER_UNIQUIFIER = Server;
 				SPLIT_INSTALL = NO;
 				WRAPPER_EXTENSION = tmp;
@@ -856,7 +856,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Prototype";
 				SERVER_UNIQUIFIER = Server;
 				SPLIT_INSTALL = YES;
 				WEBSERVER_DOCROOT = "$(DSTROOT)$(LOCAL_LIBRARY_DIR)/WebServer/Documents";
@@ -885,7 +885,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(SERVER_UNIQUIFIER)WO-Prototype-Prototype";
 				SERVER_UNIQUIFIER = Server;
 				WRAPPER_EXTENSION = tmp;
 			};
@@ -916,7 +916,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Prototype";
 				SPLIT_INSTALL = NO;
 				WRAPPER_EXTENSION = tmp;
 				ZERO_LINK = YES;
@@ -947,7 +947,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Prototype";
 				SPLIT_INSTALL = NO;
 				WRAPPER_EXTENSION = tmp;
 				ZERO_LINK = NO;
@@ -975,7 +975,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Prototype";
 				SPLIT_INSTALL = YES;
 				WEBSERVER_DOCROOT = "$(DSTROOT)$(LOCAL_LIBRARY_DIR)/WebServer/Documents";
 				WEBSERVER_INSTALL_DIR_APPLICATION = "$(WEBSERVER_INSTALL_ROOT)";
@@ -1006,7 +1006,7 @@
 				JAVA_ONLY = YES;
 				JAVA_SOURCE_SUBDIR = .;
 				OTHER_JAVA_CLASS_PATH = "";
-				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Maxsys";
+				PRODUCT_NAME = "_WO$(CLIENT_UNIQUIFIER)WO-Prototype-Prototype";
 				WRAPPER_EXTENSION = tmp;
 			};
 			name = Default;
@@ -1039,7 +1039,7 @@
 				JAVA_VM = java;
 				JDB_OPTIONS = "";
 				JVM_OPTIONS = "";
-				PRODUCT_NAME = "WO-Prototype-Maxsys";
+				PRODUCT_NAME = "WO-Prototype-Prototype";
 				RESOURCES_DIR = "$(CONTENTS_DIR)/Resources";
 				RESOURCES_JAVA_DIR = "$(RESOURCES_DIR)/Java";
 				SERVER_UNIQUIFIER = Server;
@@ -1090,7 +1090,7 @@
 				JAVA_VM = java;
 				JDB_OPTIONS = "";
 				JVM_OPTIONS = "";
-				PRODUCT_NAME = "WO-Prototype-Maxsys";
+				PRODUCT_NAME = "WO-Prototype-Prototype";
 				RESOURCES_DIR = "$(CONTENTS_DIR)/Resources";
 				RESOURCES_JAVA_DIR = "$(RESOURCES_DIR)/Java";
 				SERVER_UNIQUIFIER = Server;
@@ -1138,7 +1138,7 @@
 				JAVA_VM = java;
 				JDB_OPTIONS = "";
 				JVM_OPTIONS = "";
-				PRODUCT_NAME = "WO-Prototype-Maxsys";
+				PRODUCT_NAME = "WO-Prototype-Prototype";
 				RESOURCES_DIR = "$(CONTENTS_DIR)/Resources";
 				RESOURCES_JAVA_DIR = "$(RESOURCES_DIR)/Java";
 				SERVER_UNIQUIFIER = Server;
@@ -1190,7 +1190,7 @@
 				JAVA_VM = java;
 				JDB_OPTIONS = "";
 				JVM_OPTIONS = "";
-				PRODUCT_NAME = "WO-Prototype-Maxsys";
+				PRODUCT_NAME = "WO-Prototype-Prototype";
 				RESOURCES_DIR = "$(CONTENTS_DIR)/Resources";
 				RESOURCES_JAVA_DIR = "$(RESOURCES_DIR)/Java";
 				SERVER_UNIQUIFIER = Server;
@@ -1263,7 +1263,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		B3F0D1B7086C083500992F80 /* Build configuration list for PBXApplicationTarget "WO-Prototype-Maxsys" */ = {
+		B3F0D1B7086C083500992F80 /* Build configuration list for PBXApplicationTarget "WO-Prototype-Prototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3F0D1B8086C083500992F80 /* Development */,
@@ -1274,7 +1274,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "WO-Prototype-Maxsys" */ = {
+		B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "WO-Prototype-Prototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3F0D1BD086C083500992F80 /* Development */,

@@ -3,11 +3,11 @@
 	013357CCFF5DD5F011CD2B9D /* Project object */ = {
 		activeArchitecture = i386;
 		activeBuildConfigurationName = Development;
-		activeExecutable = C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */;
-		activeTarget = 017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */;
+		activeExecutable = C6E4231E007BED7904000001 /* WO-Prototype-Prototype */;
+		activeTarget = 017C6100FFD43DA37F000001 /* WO-Prototype-Prototype */;
 		codeSenseManager = 65DC20A00CAF5AEF00F96DC7 /* Code sense */;
 		executables = (
-			C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */,
+			C6E4231E007BED7904000001 /* WO-Prototype-Prototype */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
@@ -64,10 +64,10 @@
 	017C60D6FFD2F2BB7F000001 /* Web Server */ = {
 		activeExec = 0;
 	};
-	017C6100FFD43DA37F000001 /* WO-Prototype-Maxsys */ = {
+	017C6100FFD43DA37F000001 /* WO-Prototype-Prototype */ = {
 		activeExec = 0;
 		executables = (
-			C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */,
+			C6E4231E007BED7904000001 /* WO-Prototype-Prototype */,
 		);
 	};
 	65DC209F0CAF5AEF00F96DC7 /* Source Control */ = {
@@ -93,8 +93,8 @@
 	};
 	65DC21B10CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
-		name = "Maxsys-Document-Main.css: 1";
+		fRef = B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */;
+		name = "Prototype-Document-Main.css: 1";
 		rLen = 13834;
 		rLoc = 0;
 		rType = 0;
@@ -103,8 +103,8 @@
 	};
 	65DC21B20CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 95";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 95";
 		rLen = 17;
 		rLoc = 4328;
 		rType = 0;
@@ -113,8 +113,8 @@
 	};
 	65DC21B30CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 142";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 142";
 		rLen = 0;
 		rLoc = 7602;
 		rType = 0;
@@ -133,8 +133,8 @@
 	};
 	65DC21B50CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 99";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 99";
 		rLen = 20;
 		rLoc = 4408;
 		rType = 0;
@@ -153,8 +153,8 @@
 	};
 	65DC21B70CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
-		name = "Maxsys-Document-Main.css: 463";
+		fRef = B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */;
+		name = "Prototype-Document-Main.css: 463";
 		rLen = 354;
 		rLoc = 8356;
 		rType = 0;
@@ -163,8 +163,8 @@
 	};
 	65DC21B80CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 100";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 100";
 		rLen = 17;
 		rLoc = 4447;
 		rType = 0;
@@ -173,8 +173,8 @@
 	};
 	65DC21B90CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
-		name = "Maxsys-Document-Main.css: 461";
+		fRef = B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */;
+		name = "Prototype-Document-Main.css: 461";
 		rLen = 711;
 		rLoc = 8329;
 		rType = 0;
@@ -183,8 +183,8 @@
 	};
 	65DC21BA0CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 100";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 100";
 		rLen = 17;
 		rLoc = 4447;
 		rType = 0;
@@ -193,8 +193,8 @@
 	};
 	65DC21BB0CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
-		name = "Maxsys-Document-Main.css: 461";
+		fRef = B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */;
+		name = "Prototype-Document-Main.css: 461";
 		rLen = 20;
 		rLoc = 8330;
 		rType = 0;
@@ -213,8 +213,8 @@
 	};
 	65DC21BD0CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 95";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 95";
 		rLen = 17;
 		rLoc = 4328;
 		rType = 0;
@@ -233,8 +233,8 @@
 	};
 	65DC21BF0CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */;
-		name = "Maxsys-Document-Main.css: 1";
+		fRef = B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */;
+		name = "Prototype-Document-Main.css: 1";
 		rLen = 13834;
 		rLoc = 0;
 		rType = 0;
@@ -243,15 +243,15 @@
 	};
 	65DC21C00CB25F4100F96DC7 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */;
-		name = "Maxsys WO Test.html: 8";
+		fRef = B3A04C5B0785E57500C94196 /* Prototype WO Test.html */;
+		name = "Prototype WO Test.html: 8";
 		rLen = 429;
 		rLoc = 317;
 		rType = 0;
 		vrLen = 1727;
 		vrLoc = 0;
 	};
-	B3A04C5B0785E57500C94196 /* Maxsys WO Test.html */ = {
+	B3A04C5B0785E57500C94196 /* Prototype WO Test.html */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {973, 2198}}";
 			sepNavSelRange = "{317, 429}";
@@ -265,14 +265,14 @@
 			sepNavVisRange = "{486, 739}";
 		};
 	};
-	B3A04C5E0785E57500C94196 /* Maxsys-Document-Main.css */ = {
+	B3A04C5E0785E57500C94196 /* Prototype-Document-Main.css */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {973, 10920}}";
 			sepNavSelRange = "{0, 13834}";
 			sepNavVisRange = "{1421, 984}";
 		};
 	};
-	C6E4231E007BED7904000001 /* WO-Prototype-Maxsys */ = {
+	C6E4231E007BED7904000001 /* WO-Prototype-Prototype */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -292,7 +292,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = "WO-Prototype-Maxsys";
+		name = "WO-Prototype-Prototype";
 		sourceDirectories = (
 		);
 	};

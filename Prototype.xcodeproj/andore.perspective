@@ -541,7 +541,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>B3F0D1C9086C08DE00992F80</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MaxsysDocument.eomodeld</string>
+								<string>PrototypeDocument.eomodeld</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -549,7 +549,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>B3F0D1CA086C08DE00992F80</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MaxsysDocument.eomodeld</string>
+										<string>PrototypeDocument.eomodeld</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
@@ -854,7 +854,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>/Users/andore/Documents/Work.localized/Maxsys/Website/New Website/Implementation/Versions/WO Test Maxsy 1/WO-Prototype-Maxsys/WO-Prototype-Maxsys.xcodeproj</string>
+		<string>/Users/andore/Documents/Work.localized/Prototype/Website/New Website/Implementation/Versions/WO Test Maxsy 1/WO-Prototype-Prototype/WO-Prototype-Prototype.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>0 113 1024 633 0 0 1024 746 </string>

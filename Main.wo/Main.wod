@@ -26,7 +26,7 @@ Conditional5: WOConditional {
 GenericElement1: WOGenericElement
 {
 	elementName = "LINK";
-	href = "/CSS/Maxsys-Document-Main.css";
+	href = "/CSS/Prototype-Document-Main.css";
 	rel = "stylesheet";
 	type = "text/css";
 }
