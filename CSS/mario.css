@@ -162,6 +162,7 @@ body {
 	left:12%;
 	width:auto;
 	height:auto;
+	min-width: 75%;
 	position:absolute;
 	background-color:transparent;
 	z-index:16;
@@ -170,7 +171,7 @@ body {
 .baseNavigationButton
 {
 	height:auto;
-	width:70%;
+	width:auto;
 	z-index:16;
 	position:relative;
 	margin:0em 2ex 0ex 0ex;
