@@ -321,12 +321,14 @@ a.baseNavigationButton:active
 	position:absolute;
 	margin: 0ex 0ex 0ex 0ex;
 	padding: 0ex 0ex 0ex 0ex;
-	overflow:visible;
+	overflow:hidden;
 	font-weight:500;
 	text-align:left;
 	border-width:1px;  
 	border-style:none solid none none;
 	border-color:#666666;
+	border-top-right-radius:2px; 
+	border-bottom-right-radius:2px; 	
 }
 
 a.baseSecondaryNavigationElement
@@ -784,4 +786,26 @@ a.nextPageJumpElement:active
 	font-weight:600;
 	background-image:url(../Images/Daimond.Blue.png);
 	border:1px solid #666666;
+}
+
+.page-break { 
+	page-break-before:always; 
+}
+
+input,.baseNavigationButton { 
+	border-radius:2px; 
+}
+
+.baseSecondaryNavigationElement:first-child {
+	border-top-left-radius:2px; 
+	border-bottom-left-radius:2px; 
+}
+
+.baseSecondaryNavigationElement:last-child {
+	border-top-right-radius:2px; 
+	border-bottom-right-radius:2px; 
+}
+
+::selection { 
+	background:rgba(23,23,23,.2); color: white;
 }
