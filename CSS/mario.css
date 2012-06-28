@@ -99,7 +99,7 @@
 	clear: none;
 	float: none;
 	vertical-align: middle;
-	text-shadow: 3px 3px 15px #1b1b1b;
+	text-shadow: 3px 1px 3px #1b1b1b;
 	overflow:hidden;
 }
 
@@ -119,7 +119,9 @@ body {
 	word-spacing:normal;
 	
 	border:0px none;
+/*
 	background-image:url(../Images/teru76801.jpg);
+*/
 	background-attachment:fixed;
 	background-position:center bottom;
 	font-family: "Myriad Pro", "Arial" ,"Verdana", "Hiragino Maru Gothic Pro W4",sans-serif;
@@ -273,7 +275,7 @@ a.menuItem, a.menuItem:link, a.menuItem:visited
 
 a.menuItem:hover
 {
-	background-image:url(../Images/Transparent-Image-Blue.png);
+	background-image:url(../Images/Transparent-Image-Green.png);
 	background-position:center center;
 	background-attachment:scroll;
 	color:white;
@@ -398,7 +400,7 @@ h1 {
 	font-weight: 900;
 	font-variant: normal;
 	text-transform: none;
-	color: #4D64CE;
+	color: #38a7be;
 	left:10%;
 	width:80%;
 	z-index:12;
@@ -413,7 +415,7 @@ h2 {
 	font-weight: 700;
 	font-variant: normal;
 	text-transform: none;
-	color: #4D64CE;
+	color: #5d93be;
 	left:10%;
 	width:80%;
 	z-index:12;
@@ -427,7 +429,7 @@ h3 {
 	font-weight: 500;
 	font-variant: normal;
 	text-transform: none;
-	color: #4D64CE;
+	color: #5d93be;
 	left:10%;
 	width:80%;
 	z-index:12;
@@ -475,9 +477,16 @@ p{
 	background-position:left top;
 	clear: right;
 	overflow:visible;
+}
+
+a.homeLogo,
+.quoteBox,
+.imageBoxRightAligned,
+.imageBoxRightAligned img {
 	border-width:1px;
 	border-style:solid;
 	border-color:transparent;
+	border-radius: 3px;
 }
 
 .imageBoxRightAligned:hover
@@ -506,7 +515,7 @@ img.standardImage4by3:hover
 {
 	border:solid;
 	border-width:.5ex;
-	border-color:#4D64CE;
+	border-color:#5d93be;
 }
 
  
@@ -519,14 +528,14 @@ img.standardImage4by3:hover
 	width:20em;
 	border:none;
 	border-width:5px;
-	border-color:#4D64CE;
+	border-color:#5d93be;
 }
 
 .standardImage16by9:hover 
 {
 	border:solid;
 	border-width:5px;
-	border-color:#4D64CE;
+	border-color:#5d93be;
 }
 
 .standardImageBoxContents 
@@ -592,15 +601,14 @@ img.standardImage4by3:hover
 	overflow:visible;
 	position:relative;
 	width:20em;
-	border-width:1px;
-	border-style:solid;
-	border-color:transparent;
 }
 
 .quoteBox:hover
 {
+/*
 	border-width:1px;
 	border-style:solid;
+*/
 	border-color:#666666;
 }
 
@@ -644,7 +652,7 @@ a.homeLogo
 	height:auto;
 	width:auto;
 	right:12%;
-	top:1.3ex;
+	top:1.5ex;
 	z-index:15;
 	position:absolute;
 	border: 1px solid #000000;
@@ -656,9 +664,11 @@ a.homeLogo
 	text-align:center;
 	text-decoration:none;
 	background-attachment: scroll;
-	background-image:url(../Images/Transparent-Image-Black.png);
+	background-image:url(../Images/Plastic.Black.png);
 	background-repeat:repeat;
 	background-position:left top;
+	font-size: 1.25em;
+	background-size: 100% 100%;
 }
 
 a.homeLogo:hover
@@ -807,5 +817,26 @@ input,.baseNavigationButton {
 }
 
 ::selection { 
-	background:rgba(23,23,23,.2); color: white;
+	background:#32adbe; color: white;
+}
+
+.page-end-clear {
+	content: ".";
+	height: 0px;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+
+
+
+/*LIGHTBOX*/
+div#lightboxOverlay{
+background-color: white;
+position: fixed;
+}
+
+div#lightbox span.lb-caption {
+color: black;
 }

@@ -6,6 +6,11 @@
 		</title>
 		<META NAME="generator" CONTENT="WebObjects 6.1">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<script src="J-Script/lightbox/js/jquery-1.7.2.min.js"></script>
+		<script src="J-Script/lightbox/js/lightbox.js"></script>
+
+		<link href="J-Script/lightbox/css/lightbox.css" rel="stylesheet" />
 		<link href="CSS/mario.css" rel="stylesheet" type="text/css" />
 
 <!-- compliance patch for microsoft $hit browsers --> <!--[if lt IE 7]>
@@ -29,16 +34,13 @@
 		</div>
 		<!--[]><![]--> <a class="homeLogo" href="#" >
 		<div class="homeLogoTextLarge" >
-			UNIBA
-		</div>
-		<div class="homeLogoTextSmall" >
-			アプリ
+			UNIBAアプリ
 		</div>
 		</a> 
 		<img class="pageBanner" src="Images/pics.png" />
 		<div class="pageBannerTextBox">
 			<div class="pageBannerText">
-				「マリオ」について
+				ラピッドアプリ作成フレームワーク
 			</div>
 		</div>
 		<div class="topBannerLine">
@@ -46,6 +48,7 @@
 		<div class="bottomBannerLine">
 		</div>
 		<div class="baseNavigationBox">
+<!--
 			<div class="baseNavigationButton"><span>iOSアプリ</span>
 			<div class="box" >
 			<a class="menuItem" href="#" title="パーティー用 "> パーティー用 </a>
@@ -56,15 +59,17 @@
 			<a class="menuItem" href="#" title="その他その３"> その他その３ </a>
 			<a class="menuItem" href="#" title="なんちゃら"> なんちゃら </a>
 			</div></div>
+-->
 			
 			<div class="baseNavigationButton" > iOSフレームワーク 
 			<div class="box" >
-			<a class="menuItem" href="#" title="マリオ "> マリオ </a>
-			<a class="menuItem" href="#" title="ピーチ "> ピーチ </a>
-			<a class="menuItem" href="#" title="クッパ"> クッパ </a>
-
+			<a class="menuItem" href="Index.html">マリオ</a> 
+			<a class="menuItem" href="Mario.Kanri-App.html">管理画面</a> 
+			<a class="menuItem" href="Mario.Pictures.html">ギャラリー</a>
+			<a class="menuItem" href="Mario.Oubo.html">アプリデモ</a>
 			</div></div>
 
+<!--
 			<div class="baseNavigationButton" > Macアプリ 
 			<div class="box" >
 			<a class="menuItem" href="#" title="シモネアプリ"> シモネアプリ </a>
@@ -86,52 +91,57 @@
 			<a class="menuItem" href="#" title="ヘルプ"> ヘルプ </a>
 
 			</div></div>
+-->
 		</div>
 		<div class="secondaryNavigationBar">
-			<a class="baseSecondaryNavigationElement" href="#">マリオ</a> 
-			<a class="baseSecondaryNavigationElement" href="#">ピーチ</a>
-			<a class="baseSecondaryNavigationElement" href="#">クッパ</a>
+			<a class="baseSecondaryNavigationElement" href="Index.html">マリオ</a> 
+			<a class="baseSecondaryNavigationElement" href="Mario.Kanri-App.html">管理画面</a> 
+			<a class="baseSecondaryNavigationElement" href="Mario.Pictures.html">ギャラリー</a>
+			<a class="baseSecondaryNavigationElement" href="Mario.Oubo.html">アプリデモ</a>
 		</div>
 		<div class="normalPageContent">
 			<h1>
-				マリオフレームワーク...
+				ラピッドアプリ作成
 			</h1>
 			<div class="imageBoxRightAligned">
-				<img class="standardImage4by3" src="Images/2010-01-28-052856.jpg" />
+				<a rel="lightbox" href="Images/picture009.jpg" title="ビュティーのスタイル店（百貨店）で商品を雑誌のように展示する。">
+					<img class="standardImage4by3" src="Images/picture009.jpg" />
+				</a>
 				<div class="imageBoxText4by3">
 					<h2>
-						すごい！
+						実際に使われた場面。
 					</h2>
-					なんかね。
+					ビュティーのスタイル店（百貨店）で商品を雑誌のように展示する。
 				</div>
 			</div>
 			<p>
-				先日から話題になっているアップルの新製品iPad。筆者は現在、海外出張中なのだが、ある程度長い時間使用する機会を得た。
+				電子書籍の時代では、コンテンツのよく変わる。ある店では、iPadを使い、商品ラインナップを展示し、季節などによりその商品が全く別の形になる。それに合わせて、納期の短さ、転回の早さ、パフォーマンスの良さなど、と言う要求に答えられる会社は極稀である。
 			<br/>
+			<h2>
+				マリオと言うフレームワーク
+			</h2>
 			<p>
-　				使用したのは、Wi-Fi版で後ろ姿が美しい。アップルのサイトに掲載されている写真を見るとわかるが、3G版は微弱な電波を受け取れるよう、背面上部が黒いプラスティックで覆われており、デザインのバランスを崩している。
+　				その要求・需要に答えるために、ユニバ（株）はネイティブアプリ作成フレームワークを作り始めた。素材の差し替え、ものの配置や色透明度などをビジュアル的にセットするだけで新しい「商品の展示アプリ」「雑誌アプリ」などを作成できる。
 			</p>
 			<br/>
 			<p>
-　				iPadについては、何度か書いてきたが、実際に製品を手にしてみると、違う考えも浮かんでくる。改めて、iPadを買う前に知っておきたい情報を書いておきたくなった。　このコラムの読者が実際に買うか、あるいは買わないのか。その判断の材料となるよう、個人的に感じたことをオムニバス的にまとめてみた。
+				言い換えれば、プログラマーに頼らなくても、PhotoshopやFlashのように、ものを配置するだけでアプリの作成が可能になる。
 			</p>
-			<h1>
+			<h2>
 				利用場面...
-			</h1>
+			</h2>
 			<p>
-				日本でのiPadの評判を耳にするにつけ、ちょっと気になったのが「iPadは大きなiPod touchに思われがちだけど全然違うよ」というもの。iPod touchとは画面の大きさも解像度もパフォーマンスも違うので、同じようなアプリケーションを動かしても、その体験の質は全然違う。 
+				セールスプロモーション用ゲームアプリ（早口ゲーム等)、店頭案内アプリ、電子化した雑誌など。
 			</p>
-			<h1>
-				使い方
-			</h1>
 			<div class="quoteBox">
 				<div class="quoteBoxText">
-					...「マリオ」は本当に使いにくいけど！便利！.
+					...プログラマーに頼らなくても...ものを配置するだけでアプリの作成が可能に...
 				</div>
 			</div>
 			<p>
 				全く別のものというのはある意味で正しいのだが、もう少し冷静に俯瞰してみると、iPadはやはりサイズが大きく高速なiPod touchである。この事実は動かせない。iPod touchとは別のものだと言い切ってしまうと、一部の消費者を誤った理解へと導いてしまうと思う。 
 			</p>
+			<div class="page-end-clear"></div>
 			<div class="copyrightBox">
 				Copyright 20XX Unibaあんどれ.
 			</div>

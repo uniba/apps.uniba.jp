@@ -144,7 +144,7 @@
 		B3A41AB70784CAC400FA607A /* JavaWebServicesClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AB40784CAC400FA607A /* JavaWebServicesClient.framework */; };
 		B3A41ABA0784CAC400FA607A /* server.wsdd in Resources */ = {isa = PBXBuildFile; fileRef = B3A41AB90784CAC400FA607A /* server.wsdd */; };
 		B3A41ABB0784CAC400FA607A /* JavaWebServicesSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A41AB80784CAC400FA607A /* JavaWebServicesSupport.framework */; };
-		B3C099BC0999AF5200550ADC /* PrototypeDocument.eomodeld in Resources */ = {isa = PBXBuildFile; fileRef = B3C099BB0999AF5200550ADC /* PrototypeDocument.eomodeld */; };
+		B3C099BC0999AF5200550ADC /* Document.eomodeld in Resources */ = {isa = PBXBuildFile; fileRef = B3C099BB0999AF5200550ADC /* Document.eomodeld */; };
 		C65E1ED90072974704CD2B8D /* WOAfile.icns in Resources */ = {isa = PBXBuildFile; fileRef = C65E1ED80072974704CD2B8D /* WOAfile.icns */; };
 		FF70E86D02244EA903CD29B6 /* Properties in Resources */ = {isa = PBXBuildFile; fileRef = FF70E86C02244EA903CD29B6 /* Properties */; };
 /* End PBXBuildFile section */
@@ -383,8 +383,8 @@
 		B3A41AB50784CAC400FA607A /* client.wsdd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = client.wsdd; sourceTree = "<group>"; };
 		B3A41AB80784CAC400FA607A /* JavaWebServicesSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaWebServicesSupport.framework; path = /System/Library/Frameworks/JavaWebServicesSupport.framework; sourceTree = "<absolute>"; };
 		B3A41AB90784CAC400FA607A /* server.wsdd */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = server.wsdd; sourceTree = "<group>"; };
-		B3A41ADB0784CBAD00FA607A /* Prototype WO Test.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Prototype WO Test.html"; sourceTree = "<group>"; };
-		B3C099BB0999AF5200550ADC /* PrototypeDocument.eomodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.eomodeld; path = PrototypeDocument.eomodeld; sourceTree = "<group>"; };
+		B3A41ADB0784CBAD00FA607A /* Index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
+		B3C099BB0999AF5200550ADC /* Document.eomodeld */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Document.eomodeld; sourceTree = "<group>"; };
 		C65E1ED80072974704CD2B8D /* WOAfile.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = WOAfile.icns; sourceTree = "<group>"; };
 		FF70E86C02244EA903CD29B6 /* Properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Properties; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -525,7 +525,7 @@
 				B3A41AAD0784CAC400FA607A /* Servlet Resources */,
 				B3A41AB50784CAC400FA607A /* client.wsdd */,
 				B3A41AB90784CAC400FA607A /* server.wsdd */,
-				B3C099BB0999AF5200550ADC /* PrototypeDocument.eomodeld */,
+				B3C099BB0999AF5200550ADC /* Document.eomodeld */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -534,7 +534,7 @@
 			isa = PBXGroup;
 			children = (
 				016FA8CAFFE5B8A311CD2B8D /* Main.wo */,
-				B3A41ADB0784CBAD00FA607A /* Prototype WO Test.html */,
+				B3A41ADB0784CBAD00FA607A /* Index.html */,
 				2123FDFBFFD467417F000001 /* Main.java */,
 				2123FDFCFFD467417F000001 /* Main.api */,
 			);
@@ -635,9 +635,13 @@
 /* Begin PBXProject section */
 		013357CCFF5DD5F011CD2B9D /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "WO-Prototype-Prototype" */;
+			buildConfigurationList = B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "Prototype" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 013357CDFF5DD5F011CD2B9D;
 			productRefGroup = 013357CEFF5DD64811CD2B9D /* Products */;
 			projectDirPath = "";
@@ -676,7 +680,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3A04CF80785EAA300C94196 /* Prototype WO Test.html in Resources */,
-				B3C099BC0999AF5200550ADC /* PrototypeDocument.eomodeld in Resources */,
+				B3C099BC0999AF5200550ADC /* Document.eomodeld in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1274,7 +1278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Default;
 		};
-		B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "WO-Prototype-Prototype" */ = {
+		B3F0D1BC086C083500992F80 /* Build configuration list for PBXProject "Prototype" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B3F0D1BD086C083500992F80 /* Development */,
